@@ -1,0 +1,25 @@
+[package]
+name = "cloudillo-desktop-cli"
+description = "Cloudillo desktop client: command-line frontend"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "cloudillo"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+cloudillo-desktop-core = { path = "../core" }
+cloudillo-desktop-fs-fuse = { path = "../fs-fuse" }
+dirs = "6"
+qrcode = { version = "0.14", default-features = false }
+rustix = { version = "1", features = ["fs"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "signal", "time", "net", "io-util", "io-std", "sync"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[lints]
+workspace = true

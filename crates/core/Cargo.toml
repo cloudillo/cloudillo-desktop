@@ -1,0 +1,32 @@
+[package]
+name = "cloudillo-desktop-core"
+description = "Cloudillo desktop client core: API client, pairing, tree model"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+base64 = "0.22"
+bytes = "1"
+chacha20 = "0.10"
+dirs = "6"
+getrandom = "0.4"
+keyring = { version = "3", features = ["sync-secret-service", "crypto-rust"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "stream", "json"] }
+rusqlite = { version = "0.38", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["time", "sync", "macros"] }
+toml = "0.9"
+
+[features]
+# `stub`: a local HTTP stub server + session, for other crates' tests
+test-util = ["tokio/net", "tokio/io-util", "tokio/rt"]
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt", "rt-multi-thread", "net", "io-util"] }
+
+[lints]
+workspace = true

@@ -1,0 +1,20 @@
+[package]
+name = "cloudillo-desktop-fs-fuse"
+description = "Cloudillo desktop client: FUSE frontend (Linux)"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+cloudillo-desktop-core = { path = "../core" }
+fuser = "0.18"
+tokio = { version = "1", features = ["rt", "sync", "time"] }
+tracing = "0.1"
+
+[dev-dependencies]
+cloudillo-desktop-core = { path = "../core", features = ["test-util"] }
+tokio = { version = "1", features = ["macros", "rt", "rt-multi-thread"] }
+
+[lints]
+workspace = true
