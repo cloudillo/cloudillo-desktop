@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Bidirectional inode <-> node id map. Inode 1 is the mount root ([`tree::ROOT`]).
 //! Each inode remembers its parent inode, for `..`.
 //!

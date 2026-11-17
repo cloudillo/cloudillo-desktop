@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! `cloudillo` — mount a Cloudillo identity's files over FUSE.
 #![forbid(unsafe_code)]
 

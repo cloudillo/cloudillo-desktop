@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Bearer selection for the paired target. Own tenant: the `cl_` key on `https://cl-o.{idTag}`.
 //! `contextIdTag`: a proxy token brokered by the personal host, used on `https://cl-o.{ctx}`,
 //! cached until shortly before its JWT `exp`.

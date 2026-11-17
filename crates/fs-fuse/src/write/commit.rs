@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Commit: debounce, journal (`on-demand`) or upload (`off`) a staged file.
 
 use std::path::Path;

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Reads: `off` mode reads ahead per open handle (one ranged download of at least 1 MiB serves
 //! the reads after it); staged files and `on-demand` blobs are read locally with [`read_at`].
 

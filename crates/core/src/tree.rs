@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Tree sources keyed by node id, both producing [`Child`]: [`RemoteTree`] (in-memory, `off`
 //! mode, 10 s TTL, no persistence) and [`DbTree`] (`meta.sqlite`, kept current by
 //! [`crate::feed::FeedPoller`]).

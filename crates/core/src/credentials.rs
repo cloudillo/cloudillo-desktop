@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Paired-device credentials: OS keyring (service `cloudillo`, account `{idTag}`), with a
 //! `0600` JSON file under `$XDG_CONFIG_HOME/cloudillo/credentials/` when no keyring is reachable.
 

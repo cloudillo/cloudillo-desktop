@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Client-side error type, mapped from HTTP status + the server's error body.
 
 use serde::Deserialize;

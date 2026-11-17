@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Write path helpers; the `Filesystem` callbacks in `lib.rs` call these.
 //!
 //! Per inode being written, a [`Staged`] record in `Ctx::staged` holds a local staging file

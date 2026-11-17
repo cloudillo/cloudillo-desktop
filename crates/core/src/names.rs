@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Remote name <-> local name mapping. [`assign_names`] is stateless (`off` mode);
 //! [`assign_sticky`] keeps the names already stored in the metadata DB.
 

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! CLI <-> daemon protocol: one JSON object per line over the Unix socket
 //! `<run_dir>/daemon.sock` (mode `0600`). One request, one response.
 

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Persistent mounts: `$XDG_CONFIG_HOME/cloudillo/mounts.toml`, owned by the daemon.
 
 use std::io;

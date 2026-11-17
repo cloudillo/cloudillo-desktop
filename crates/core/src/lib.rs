@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Cloudillo desktop client core. Free of FUSE types: frontends build on top of it.
 #![forbid(unsafe_code)]
 

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Change-feed poller: keeps one mount's `meta.sqlite` equal to the server, one cursor per
 //! drive (`GET /api/file-changes` takes one drive or folder, never `*`).
 //!

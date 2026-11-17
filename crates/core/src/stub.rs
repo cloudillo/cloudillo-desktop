@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Test-only HTTP/1.1 stub server: one canned answer per request, every request head logged.
 #![allow(clippy::unwrap_used)]
 

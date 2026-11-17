@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! HTTP client for one Cloudillo host. Wire structs mirror `../cloudillo-rs` JSON (camelCase,
 //! unknown fields ignored). Every JSON answer is the `{data, next?, total?}` envelope,
 //! unwrapped once in [`ApiClient::page`].

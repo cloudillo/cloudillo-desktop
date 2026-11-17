@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Per-mount metadata DB (`meta.sqlite`): entries, feed cursors, blob-cache LRU.
 //!
 //! Sentinels instead of SQL `NULL` so the partial unique index bites: top-level rows carry a

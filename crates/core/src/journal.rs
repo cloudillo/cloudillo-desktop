@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Pending-op journal (`pending_ops` in the mount's `meta.sqlite`): every mutation made through
 //! FUSE in `on-demand` mode, replayed in `seq` order by the [`crate::sync::SyncWorker`].
 //!

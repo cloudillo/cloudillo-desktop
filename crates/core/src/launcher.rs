@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! `.cloudillo-doc` launcher files: CRDT/RTDB entries show up as small read-only JSON files.
 
 /// Suffix appended to the (encoded) remote name of a CRDT/RTDB entry.

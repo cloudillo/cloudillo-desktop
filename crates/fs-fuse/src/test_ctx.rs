@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Mount context for tests: no FUSE, network through the core `stub` server.
 
 use std::path::PathBuf;

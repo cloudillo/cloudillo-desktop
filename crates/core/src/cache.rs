@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Content-addressed blob cache: `<dir>/<content_id>`, LRU state in [`Db`]'s `cache_lru`.
 //!
 //! A remote replace changes the content id, so it simply misses the cache.

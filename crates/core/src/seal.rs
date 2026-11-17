@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Staging-file encryption for temp mounts: a ChaCha20 keystream XORed in at the file offset
 //! (random access, ciphertext length = plaintext length). The key is random and never leaves
 //! the process; the threat is staging data at rest after a crash or disk theft, so no auth tag.

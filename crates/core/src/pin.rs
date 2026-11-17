@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Pinned subtrees: kept hydrated for offline use and never LRU-evicted
 //! ([`BlobCache::evict_to_fit`]). The flag is `entries.pinned`; an entry is pinned when it or
 //! any ancestor carries it. A `pinned` mount pins its root, i.e. every entry (`whole`).

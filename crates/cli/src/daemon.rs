@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! `cloudillo daemon`: owns every persistent mount (`mounts.toml`) and answers CLI requests on
 //! the Unix socket ([`ipc::socket_path`]). [`request`] is the client side; it starts the daemon
 //! on demand.

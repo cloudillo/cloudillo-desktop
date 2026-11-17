@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Namespace ops: mkdir, unlink, rmdir, rename.
 
 use std::time::SystemTime;

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Atomic-save detection. Editors save via temp file + rename, or unlink + create; a local
 //! unlink or rename-away of a tracked file is therefore held [`HOLD`] keyed by its
 //! `(parent, local name)`. A new file appearing there within the window becomes a `Replace` of

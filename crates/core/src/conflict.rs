@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Conflict table: what happens when an entry changed both locally (pending journal ops) and
 //! remotely (a feed row, a `gone` marker, a 412) since the local base (`base_content_id` /
 //! last feed state). [`decide`] is pure; the feed poller and the sync worker only execute its

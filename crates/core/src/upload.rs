@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Create / replace a remote BLOB from a staged local file.
 //!
 //! At most one replace per entry is in flight: [`Uploader::replace`] holds the entry's lock

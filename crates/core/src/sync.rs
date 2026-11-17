@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Sync worker of one mount: replays the [`Journal`] in `seq` order, one op at a time.
 //! Network / 5xx errors back off (1 s doubling to 5 min) and retry; any other rejection marks
 //! the op failed (kept, shown in `status`). A key the probe confirms dead stops the worker

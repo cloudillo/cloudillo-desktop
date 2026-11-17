@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! FUSE frontend. One `Filesystem` impl serves every [`Mode`]:
 //! - `off`: metadata from `RemoteTree` (in-memory, 10 s listing TTL), reads as ranged
 //!   downloads;

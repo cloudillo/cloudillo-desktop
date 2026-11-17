@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Files never uploaded: ignore patterns (built-in + per mount) and the size cap. Such files
 //! stay local (in the mount's staging dir) and are counted for `status`.
 

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! Atomic save: held unlinks / rename-aways claimed by a new file at the same place.
 
 use cloudillo_desktop_core::conflict::LocalChange;

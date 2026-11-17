@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: Szilárd Hajba
+// SPDX-License-Identifier: MPL-2.0
+
 //! QR pairing against the personal-tenant host (server `cloudillo-auth/src/qr_pair.rs`).
 
 use std::io;
